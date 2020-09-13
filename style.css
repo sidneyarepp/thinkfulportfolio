@@ -35,12 +35,21 @@ header {
 .intro {
     background-color: #5e7780;
     grid-column: span 3;
+    text-align: left;
+    padding: 5px;
+}
+
+/* aligning the h2 tags centered */
+.intro > h2, .about > h2 {
+    text-align: center;
 }
 
 /* setting the about section background and setting it to span 3 columns in width */
 .about {
     background-color: #76949F;
     grid-column: span 3;
+    text-align: left;
+    padding: 5px;
 }
 
 /* setting the contact section background and setting it to span 3 columns in width */
@@ -50,7 +59,7 @@ header {
 }
 
 /* setting the unordered list so the li tags are all aligned on their left edge even if centered */
-ul {
+ul, ol {
     display: inline-block;
     list-style-type: none;
     padding: 0;
@@ -63,7 +72,7 @@ li {
 }
 
 /* removing the margin and padding from all h1 and h2 tags */
-h1, h2 {
+h1, h2, h3 {
     margin: 0;
     padding: 0;
 }
@@ -81,7 +90,7 @@ hr {
 
 /* styling all of the link colors for their various states */
 a:link {
-    color: #000000;
+    color: #453a4e;
 }
 
 a:visited {
