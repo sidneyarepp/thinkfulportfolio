@@ -104,3 +104,10 @@ a:hover {
 a:active {
     color: #49f9ff;
 }
+
+/* footer grid styling */
+footer {
+    display: grid;
+    background-color: #5F506B;
+    margin: 0;
+}
